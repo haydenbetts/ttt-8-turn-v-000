@@ -10,7 +10,7 @@ def input_to_index(input)
   input.to_i - 1
 end
 
-def valid_move?()
+def valid_move?(board, index)
   # check if move is in range, check if position take
 end
 
