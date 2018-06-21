@@ -33,6 +33,7 @@ def turn(board)
     display_board(board)
     turn(board)
   else
+    puts "Please enter a valid move."
     turn(board)
   end
 
