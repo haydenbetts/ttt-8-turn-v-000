@@ -23,4 +23,5 @@ def move(board, index, value)
 end
 
 def turn
+  
 end
