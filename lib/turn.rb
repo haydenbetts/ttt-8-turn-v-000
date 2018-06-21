@@ -11,7 +11,8 @@ def input_to_index(input)
 end
 
 def valid_move?()
+  # check if move is in range, check if position take
 end
 
-def 
+def position_taken?()
 end
