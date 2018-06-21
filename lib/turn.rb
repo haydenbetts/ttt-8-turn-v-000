@@ -14,5 +14,5 @@ def valid_move?(board, index)
   # check if move is in range, check if position take
 end
 
-def position_taken?()
+def position_taken?(board, index)
 end
