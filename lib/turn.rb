@@ -11,7 +11,7 @@ def input_to_index(input)
 end
 
 def valid_move?(board, index)
-  index >= 0 && index <= 8 
+  index >= 0 && index <= 8 && !position_taken?(board, index)
   # check if move is in range, check if position taken
 end
 
